@@ -1,0 +1,81 @@
+
+/* custom Container For Narrower content */
+
+
+body,
+input,
+button,
+select,
+textarea,
+.navbar-search .search-query {
+  font-family: 'Oleo Script';
+}
+
+ body {
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margine: 0px;
+      }
+
+      /* Custom container */
+ .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+
+.container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+.jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+.jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+.jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+.marketing {
+        margin: 60px 0;
+      }
+.marketing p + h4 {
+        margin-top: 28px;
+      }
+/* end narrow */
+
+
+/* hr gradient on edges */
+#hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+/* top color bar (with narrow container)  */
+.top-color {
+  height: 5px;
+  width: 100%;
+  background-color: #18bdd7;
+  position: relative;
+  padding: 0px 0 15px;
+}
+
+/* today */
+
+.today {
+	background-color: #18bdd7;
+	font-family: sans-serif;
+	line-height: 30px;
+	color: #ffffff;
+}
+
